@@ -1,0 +1,111 @@
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #404040;
+}
+a:hover{
+    color: #fff;
+}
+/* title */
+#title{
+    font-family: 'Rubik Mono One', sans-serif;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+#title .nav-item{
+    font-size: 12px !important;
+    color: aqua !important;
+}
+
+/* promos */
+#promos{
+    background-color: #FFD371;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #8b542f;
+    text-align: center;
+    padding: 80px 50px 20px;
+    height: 450px;
+    width: 100%;
+}
+
+.h1-promo{
+    font-size: 25px !important;
+}
+
+.promo-pic{
+    width: 300px;
+    height: 260px;
+}
+
+/* features */
+#features{
+    text-align: center;
+    padding: 100px 200px;
+    font-family: 'Aclonica', sans-serif;
+    background-color: #404040;
+    color: #fff;
+}
+
+.h3-features{
+    font-size: 1.5rem;
+}
+.icon-features{
+    font-size: 2.5rem;
+    padding: 20px;
+}
+.icon-features:hover{
+    color: #FFD371;
+}
+
+/* menus */
+#menus{
+    text-align: center;
+    padding: 80px 100px;
+    color: #404040;
+}
+
+.card-body{
+    font-size: 15px !important;
+}
+.card{
+    margin-top: 20px;
+}
+
+.burger-card{
+    width: 200px;
+    padding: 20px;
+    height: 170px;
+}
+
+.menus-h1{
+    font-family: 'Aclonica', sans-serif;
+    padding: 20px;
+}
+/* footer */
+#footer{
+    background-color: #404040;
+    padding: 50px;
+    text-align: center;
+    color: #fff !important;
+}
+
+.footer_p,footer_icon{
+    padding-top: 10px;
+    color: #fff;
+}
+
+/* media query */
+@media (max-width:1024px){
+    .promo-pic{
+        width: 200px;
+        height: 170px;
+    }
+    #promos{
+        height: 360px;
+    }
+}

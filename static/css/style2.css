@@ -1,0 +1,55 @@
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+    width: 100%;
+}
+/* title */
+#title{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+#title .nav-item{
+    font-size: 12px !important;
+    color: aqua !important;
+}
+
+/* order */
+#the-order{
+    background-color: #FFD371;
+    font-family: 'Aclonica', sans-serif;
+    padding: 10px 300px;
+}
+
+.order-header{
+    text-align: center;
+}
+
+/* pricing */
+#pricing{
+    background-color: #FFD371;
+    font-family: 'Aclonica', sans-serif;
+    padding: 30px 300px;
+}
+
+/* footer */
+#footer{
+    background-color: #404040;
+    padding: 50px 50px 30px;
+    text-align: center;
+    color: #fff !important;
+}
+
+.footer_p,footer_icon{
+    padding-top: 10px;
+    color: #fff;
+}
+
+/* media query */
+@media (max-width:1024px){
+    .promo-pic{
+        width: 200px;
+        height: 170px;
+    }
+    #promos{
+        height: 360px;
+    }
+}

@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
-    <title>Burger</title>
+    <title>Pricing order</title>
   </head>
   <body>
     <!-- navbar-section -->
@@ -46,9 +46,9 @@
                 <div class="card text-white bg-dark mb-3">
                     <div class="card-header order-header">order</div>
                     <div class="card-body">
-                      {% for i in order %}
-                        <p class="card-text">-{{i}}</p>
-                      {% endfor %}
+                      {% for i in range(len) %}
+                        <p class="card-text">-{{order[i]}} ${{price[i]}}</p>
+                        {% endfor %}
                       </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
             <label for="name-input" class="form-label">Name</label>
             <input type="text" class="form-control" id="name-input">
             </div>
-            <button type="submit" class="btn btn-dark">Submit</button>
+            <button type="submit" class="btn btn-dark">cost ${{total}}</button>
             </div>
         </form>
     </section>

@@ -44,12 +44,22 @@ body{
 }
 
 /* media query */
-@media (max-width:1024px){
-    .promo-pic{
-        width: 200px;
-        height: 170px;
+@media (max-width:1028px){
+    #the-order{
+        padding: 10px 50px;
     }
-    #promos{
-        height: 360px;
+    #pricing{
+        background-color: #FFD371;
+        font-family: 'Aclonica', sans-serif;
+        padding: 30px 50px;
     }
+}
+#succes{
+    text-align: center;
+    padding: 200px 100px;
+    background-color: #FFD371;
+}
+
+.success_icon{
+    color: #FF2626;
 }
